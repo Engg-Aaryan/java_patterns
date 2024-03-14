@@ -1,0 +1,20 @@
+import java.util.Scanner; // import the Scanner class 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    int n;
+    int i;
+    int j;
+    
+    // Enter username and press Enter
+    System.out.println("Enter n"); 
+    n = myObj.nextInt();
+       for (i=1; i<=n; i++){
+           for (j=1; j<=i; j++){
+               System.out.print("* ");
+           }
+           System.out.println("");
+       }
+  }
+}
